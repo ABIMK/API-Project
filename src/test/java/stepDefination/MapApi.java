@@ -78,6 +78,4 @@ public class MapApi extends Utility{
 	public void delete_place_payload() throws IOException {
 		reqSpec = given().spec(baseRequestSpec()).queryParam("key", "qaclick123").contentType(ContentType.JSON).body(data.deletePlacePayload(place_id));
 	}
-	
-	
 }
