@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/java/features/mapValidation.feature",
 plugin= {"html:target/htmlReports/cucumber-reports.html","json:target/jsonReports/cucumber-report.json"
 		,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-glue= {"stepDefination"},tags="@UpdatePlace")
+glue= {"stepDefination"})
 public class TestRunner {
 
 }
